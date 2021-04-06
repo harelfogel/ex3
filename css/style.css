@@ -1,0 +1,269 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header, main, footer, nav, aside, section, div {
+
+    display: block;
+}
+
+ a {
+    text-decoration:none;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    height: 192px;
+    background-color: #d6d6d6;
+    justify-content: center;
+ }
+
+  #logo {
+    display: flex;
+    background: url("../images/logo.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-size: cover;
+    background-size: 76.2394px;
+    height: 76.2394px;
+    width: 76.2394px;
+    align-self: center;
+}
+/* Layout1--------------------------------------------------------------- */
+
+ #Layout1 nav {
+     height:59px;
+     background-color:#212222;   
+ }
+ 
+ #Layout1 ul{
+    display:flex;
+    margin:0 auto;
+    font-size: 20px;
+    text-align: center; 
+    list-style-type: none; 
+    width:960px;
+    padding-left: 40px;
+ }
+
+ #Layout1 ul a{
+    width:233px;
+    height:40px;
+    color:#ffffff;
+    display: block;
+    text-align:center;
+    line-height: 40px;
+    align-self:initial;
+    background-position: center;
+    margin-top:9px;
+ }
+
+.selected{
+    background-color: #2F96b4;
+}
+
+ body nav a:hover:not(.selected){
+    background-color: #8da5ac;
+}
+
+
+#Layout1 body {
+    background-color: #ffffff;
+}
+
+#wrapper{
+    width: 1000px;
+    margin:0 auto;
+}
+
+#Layout1 #wrapper {
+display: flex;
+width: 1000px;
+margin:0 auto;
+}
+
+#Layout1 #wrapper aside {
+background-color:#EEEDEE;
+height: 696px;
+width: 244px;  
+float: right;
+}
+
+#Layout1 #wrapper aside section {
+ background-color:#B94A48;
+height: 60px;
+width: 150px;
+margin-top: 180px;
+margin-left: 78px;
+position:absolute;
+}
+
+#Layout1 main {
+    background-color:#ffffff;
+    width: 756px;
+    height: 696px;
+}
+
+ .Square{
+    width: 234px;
+    height: 234px;
+    display:flex;
+    justify-content: space-between;
+    align-content: space-between;
+    flex-wrap:wrap;
+}
+
+#Layout1 #square1{
+    margin-top:18px;
+    margin-left: 40px;
+}
+
+#Layout1 #square1> section{
+    background-color:#B94A48;
+    width: 99px;
+    height: 99px;
+   
+}
+
+#Layout1 #square2{
+    margin-top:192px;
+    margin-left:505px;
+}
+
+#Layout1 #square2> section{
+    background-color:#B94A48;
+    width: 99px;
+    height: 99px;
+   
+}
+ 
+#Layout1 footer {
+    height:             50px;
+    background-color: #D6D6D6; 
+ }  
+
+
+/* Layout2--------------------------------------------------------------- */
+
+           #Layout2 nav {
+            width:151px; 
+            height: 759px;
+            background-color:#212222;
+        }
+        
+        #Layout2 ul{
+           display:flex;
+           flex-direction: column;
+           margin:0 auto;
+           font-size: 20px;
+           width:151px; 
+           list-style-type: none; 
+        }
+       
+        #Layout2 ul a{
+           width:141px;
+           height:61px;
+           line-height: 40px;
+           color:#ffffff;
+           display: block;
+            padding-left: 10px;
+           align-self:initial;
+           background-position: center;
+        }
+
+        #Layout2 #wrapper{
+            display: flex;
+            flex-direction: row;
+        }
+        
+    #Layout2 #wrapper aside {
+    background-color:#EEEDEE;
+    display: flex;
+    
+    flex-direction: row;
+    height: 759px;
+    width: 258px;  
+    }
+       
+     
+#Layout2 #square1{
+    margin-top:511px;
+    margin-left: 11px;
+}
+
+#Layout2 #square1> section{
+    background-color:#468846;
+    width: 99px;
+    height: 99px; 
+}
+
+#Layout2 main{
+    height: 759px;
+    width:591px;
+    background-color: #ffffff;
+}
+
+#Layout2 main .rectagle{
+    flex-wrap: wrap;
+    display:flex;
+    justify-content: space-around;
+    align-content:space-around;
+   
+}
+
+#Layout2 main .rectangle #Rectangle1{
+    height:322px;
+    width:269px;
+    margin-left:23px;
+    background-color:#468846;
+    margin-top:25px;
+    position:absolute;
+    
+}
+#Layout2 main .rectangle #Rectangle2{
+    width:270px;
+    height:253px;
+    margin-left:309px;
+    background-color:#468846;
+    margin-top:25px;    
+    position:absolute;
+}
+
+#Layout2 main .rectangle #Rectangle3{
+    width:270px;
+    height:412px;
+    margin-left:23px;
+    background-color:#468846;
+    margin-top:377px;
+    position:absolute; 
+}
+
+#Layout2 main .rectangle #Rectangle4{
+    width:270px;
+    height:365px;
+    margin-left:309px;
+    background-color:#468846;
+    margin-top:305px;
+    position:absolute;
+}
+
+
+#Layout2 .placeholder{
+    position: fixed; 
+    width: 100%;
+    position:absolute;
+}
+
+#Layout2 .placeholder footer{
+    position: relative;
+    width: 1000px;
+    height:50px;
+    background-color: #D6D6D6;
+    margin: 0 auto;
+}
+
+
+
+
