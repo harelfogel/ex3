@@ -13,11 +13,11 @@ header, main, footer, nav, aside, section, div {
 }
 
 header {
-    display: flex;
-    width: 100%;
-    height: 192px;
-    background-color: #d6d6d6;
-    justify-content: center;
+     display: flex; 
+      width: 100%; 
+     height: 192px;
+     background-color: #d6d6d6;
+     justify-content: center;
  }
 
   #logo {
@@ -73,10 +73,6 @@ header {
     background-color: #ffffff;
 }
 
-#wrapper{
-    width: 1000px;
-    margin:0 auto;
-}
 
 #Layout1 #wrapper {
 display: flex;
@@ -120,7 +116,7 @@ position:absolute;
     margin-left: 40px;
 }
 
-#Layout1 #square1> section{
+#Layout1 #square1 section{
     background-color:#B94A48;
     width: 99px;
     height: 99px;
@@ -147,45 +143,45 @@ position:absolute;
 
 /* Layout2--------------------------------------------------------------- */
 
-           #Layout2 nav {
-            width:151px; 
-            height: 759px;
-            background-color:#212222;
-        }
+#Layout2 nav {
+width:151px; 
+height: 759px;
+background-color:#212222;
+}
         
-        #Layout2 ul{
-           display:flex;
-           flex-direction: column;
-           margin:0 auto;
-           font-size: 20px;
-           width:151px; 
-           list-style-type: none; 
-        }
+#Layout2 ul{
+display:flex;
+flex-direction: column;
+margin:0 auto;
+font-size: 20px;
+width:151px; 
+list-style-type: none;     
+}
        
-        #Layout2 ul a{
-           width:141px;
-           height:61px;
-           line-height: 40px;
-           color:#ffffff;
-           display: block;
-            padding-left: 10px;
-           align-self:initial;
-           background-position: center;
-        }
+#Layout2 ul a{
+width:141px;
+ height:61px;
+line-height: 40px;
+color:#ffffff;
+display: block;
+padding-left: 10px;
+align-self:initial;
+background-position: center;
+}
 
-        #Layout2 #wrapper{
-            display: flex;
-            flex-direction: row;
-            height:807.5px;
-        }
-        
-    #Layout2 #wrapper aside {
-    background-color:#EEEDEE;
+#Layout2 #wrapper{
     display: flex;
     flex-direction: row;
-    height: 759px;
-    width: 258px;  
-    }
+    height:807.5px;
+}
+        
+#Layout2 #wrapper aside {
+background-color:#EEEDEE;
+ display: flex;
+flex-direction: row;
+height: 759px;
+width: 258px;  
+}
        
      
 #Layout2 #square1{
@@ -264,6 +260,105 @@ position:absolute;
     margin: 0 auto;
 }
 
+/* Layout3--------------------------------------------------------------- */
+
+#Layout3 #wrapper{
+    max-width: 1000px;
+    width:100%;
+    margin:0 auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+#Layout3 nav {
+    max-width: 1000px;
+    width:100%;
+    height:59px;
+    background-color:#212222; 
+    justify-content: center;
+}
+
+#Layout3 ul{
+   display:flex;
+   font-size: 20px;
+   list-style-type: none;  
+    margin:0 auto;  
+   justify-content: center;
+    max-width: 1000px;
+    width:100%;
+}
+
+#Layout3 ul a{
+    max-width: 233px;
+    width: 100%;
+    height:40px;
+    color:#ffffff;
+    display: block;
+    text-align:center;
+    line-height: 40px;
+    align-self:initial;
+    background-position: center;
+    margin-top:9px;
+}
+
+#Layout3 ul li{
+    display: block;
+    max-width: 233px;
+    width: 100%;
+}
+
+#Layout3 main{
+    max-width: 1000px;
+    display:flex;
+    background-color: #ffffff;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
 
 
+#Layout3 main section{
+    width:332px;
+    height: 353px;
+    display: flex;
+    background-repeat: no-repeat;
+}
+
+#Layout3 main section .batman{
+    background-position-x:275px;
+    background-position-y:6px;
+    position: relative;
+    margin-top: 10px;
+    margin-left:250px;
+    width:64px;
+    height:64px;
+    cursor: pointer;
+}
+
+#Layout3 main section .plus{
+    position:relative;
+    padding-top:100px;
+    width: 120px;
+    height: 120px;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+#Layout3 footer{
+    max-width: 1000px;
+    width:100%;
+    height:50px;
+    background-color: #D6D6D6;
+    margin: 0 auto;
+}
+
+
+/* media query sutable for tablet and mobile */
+@media (min-width:576px)and (max-width:1000px){
+    #layout3 main {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
 
